@@ -1,1 +1,0 @@
-redirect to https://www.drugdesign.org/
