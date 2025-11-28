@@ -1,0 +1,43 @@
+:root > * {
+    --md-primary-fg-color:        #004376;
+    /* --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C; */
+  }
+
+  .playb {
+    display: inline-block; /* This makes the button inline */
+    vertical-align: middle; /* This aligns the button vertically with the text */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px; /* Add some space between the title and the button */
+    padding: 0;
+}
+
+.playb .fa-play {
+    color: black;
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.playb .fa-pause {
+  color: black;
+  font-size: 17px;
+  padding-right: 10px;
+}
+
+/* Default styles for mobile devices */
+.nglviewer-container {
+  width: 100%; /* Make the container full width on smaller screens */
+  height: auto; /* Adjust height automatically */
+  aspect-ratio: 5 / 3; /* Maintain the aspect ratio (750px by 450px) */
+}
+
+/* Styles for screens wider than 768px */
+@media (min-width: 768px) {
+  .nglviewer-container {
+    width: 750px; /* Fixed width for larger screens */
+    height: 450px; /* Fixed height for larger screens */
+  }
+}
+
